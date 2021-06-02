@@ -1,8 +1,9 @@
 import 'package:dart_hello/dart_hello.dart' as dart_hello;
+import 'dart:io';
 
 /// Fungsi [main] akan menampilkan dua output.
 /// Output pertama menampilkan teks dan output kedua menampilkan hasil perkalian pada library [dart_hello]
-void main(List<String> arguments) {
+void main() {
   // Menampilkan Hello World
   print('Hello world: ${dart_hello.calculate()}!');
 
@@ -29,5 +30,14 @@ void main(List<String> arguments) {
   x = 7;
   x = 'Halo Ananda';
   print(x);
+
+  // Input pengguna
+  stdout.write('Nama saya adalah: ');
+  var namaku = stdin.readLineSync();
+  stdout.write('Usia saya adalah: ');
+  var age = stdin.readLineSync();
+  print('Halo $namaku, usia saya adalah $age tahun');
+
+
 
 }
