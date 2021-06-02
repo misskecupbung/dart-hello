@@ -85,4 +85,58 @@ void main() {
     print("Salah");
   }
 
+  // Operator
+  var firstNumber = 4; //assignment operator
+  var secondNumber = 5;
+  var sum = firstNumber + secondNumber;
+  print(sum);
+  print(firstNumber + secondNumber);
+  print(10-2);
+  print(10/2);
+  print(10%3);
+  print(10*2);
+  print(10~/2);
+  print(10*2+5);
+  print((10+2)*(1+2));
+
+  // Increment dan decrement
+  var a = 10, b = 2;
+  a++;
+  b--;
+  print(a);
+  print(b);
+
+  var c = 0;
+  c += 5;
+  print(c);
+
+  var d = 3;
+  d *= 2;
+  print(d);
+
+  // Perbandingan
+  if (2 <= 3) {
+    print('Ya benar. 2 kurang dari tiga');
+  } else {
+    print('salah');
+  }
+
+  if ( 2 == 4) {
+    print("benar sekali!");
+  } else {
+    print('salah banget!');
+  }
+
+  // Operator logika
+  if ( 2 > 5 || 5 < 6 ) {
+    print("benar salah satu");
+  } else {
+    print("salah semua");
+  }
+
+  if (2 > 1 && 3 < 5) {
+    print("ok, benar semua.");
+    } else {
+    print("salah ya");
+  }
 }
