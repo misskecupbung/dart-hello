@@ -59,4 +59,30 @@ void main() {
   // Konversi double > string
   var sebelas3 = 11.22122121212122121.toStringAsFixed(4);
   print(sebelas3);
+
+  // String
+  print('Helo!');
+  print("Hellow!");
+  print('Hai "it\'s my cat"');
+  print("hai 'it\'s my cat'");
+  print('"I think it\'s great!" I answered confidently');
+  var messi = "Messi";
+  print('Hello $messi. How are you?');
+  print('1+1 + ${1+1}');
+  print(r'Dia baru membeli barang seharga $1.000.000');
+  print('Hi \u2665');
+
+  //Booleans
+  bool alwaysTrue = true;
+  var alwaysFalse = false;
+  var notTrue = !true;
+  var notFalse = !false;
+  print('\u2665');
+
+  if(true) {
+    print("Benar");
+  } else {
+    print("Salah");
+  }
+
 }
