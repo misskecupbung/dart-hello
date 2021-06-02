@@ -17,4 +17,17 @@ void main(List<String> arguments) {
   var myAge;
   //myAge = 20;
   print(myAge);
+
+  // Type Data
+  String namasaya = 'ananda';
+  int usia = 20;
+
+  print('Perkenalkan nama saya $namasaya dan umur saya $usia tahun');
+
+  // Dynamic Variables
+  var x;
+  x = 7;
+  x = 'Halo Ananda';
+  print(x);
+
 }
