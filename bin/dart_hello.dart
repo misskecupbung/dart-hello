@@ -139,4 +139,26 @@ void main() {
     } else {
     print("salah ya");
   }
+
+  // Exception
+
+  try {
+    var a = 7;
+    var b = 0;
+    print(a~/b);
+  } on IntegerDivisionByZeroException {
+    print("Tidak bisa membagi dengan 0");
+  }
+
+  try {
+    var a = 7;
+    var b = 0;
+    print(a~/b);
+  } catch(e, s){
+    print("exception happened $e");
+    print("stack trace: $s");
+  } finally {
+    print("this line still executed");
+  }
+
 }
